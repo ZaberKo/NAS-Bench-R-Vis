@@ -20,11 +20,11 @@ Full Archs: 15625
 
 ### Current (2024/01/20):
 
-Total Trained: 14935
+Total Trained: 15227
 
-Total Evaluated by Base Attacks: 12181
+Total Evaluated by Base Attacks: 14009
 
-Total Evaluated by AutoAttack: 7417
+Total Evaluated by AutoAttack: 11558
 
 Note: currently, all test metrics are evaluated on the best model during the training (by CW acc on Val Set -- CIFAR 10.1).
 
