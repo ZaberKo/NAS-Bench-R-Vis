@@ -2,7 +2,7 @@
 
 - [NasBenchRobust](#nasbenchrobust)
   - [Note](#note)
-    - [Current (2024/01/20):](#current-20240120)
+    - [Current (2024/02/21):](#current-20240221)
   - [Arch distribution](#arch-distribution)
   - [Performance Metric Comparison](#performance-metric-comparison)
     - [params _vs._ accs:](#params-vs-accs)
@@ -18,7 +18,7 @@
 
 Full Archs: 15625
 
-### Current (2024/01/20):
+### Current (2024/02/21):
 
 Total Trained: 15227
 
