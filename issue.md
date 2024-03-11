@@ -40,7 +40,7 @@
 Potential Reasons: 
 
 - Different lr (different lr decay rate) or Different PGD attack hyperparams at the training stage?
-  - The SUSTech training code is checked: it is as same as the github code.
+  - The SUSTech training code is checked: it is as same as the Github code.
   - We also found that some initially trained models in SUSTech (around Mar 2023) are also in the "vertical line" area. The training code at that time could be the same as the MSU code.
   - ![](./fig/local_train_issue.png)
 
@@ -48,3 +48,6 @@ Potential Reasons:
   - **Unlikely**. We found that MSU models with different GPUs during training have low accuracy.
   - ![](./fig/msu_gpu_issue.png)
   
+## Conclusion
+
+There are some differences in the training stage that cause the low-accuracy "vertical line" areas. We need to check whether there is any code difference between the MSU and Github to confirm the statement.
