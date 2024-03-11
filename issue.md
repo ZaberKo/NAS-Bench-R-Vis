@@ -52,16 +52,16 @@ Potential Reasons:
 
 There are some differences in the training stage that cause the low-accuracy "vertical line" areas. We need to check whether there is any code difference between the MSU and Github to confirm the statement.
 
-# Missing *Base* Evaluation
+# Missing *Base Attack* Evaluation
 
 The data is from the GitHub repo.
 
-Red: models that complete *Base* evaluation
+Red: models that complete *Base Attack* evaluation
 
-Green: models trained by MSU by the git author
+Green: models trained by MSU according to the git author of train_log (`arch_xxx.log`)
 
-- Overlapped Green: MSU models that complete *Base* evaluation.
-- Light Green: MSU models that have not completed *Base* evaluation.
+- Overlapped Green: MSU models that complete *Base Attack* evaluation.
+- Nonoverlapping Green (Light Green): MSU models that have not completed *Base Attack* evaluation (missing `arch_xxx_eval_Linf_Base.log`).
 
 ![](./fig/msu_missing_eval.png)
 
