@@ -8,10 +8,11 @@
 
     SUSTech:
     ![](./fig/best_epoch_sustech.png)
+   
     MSU:
     ![](./fig/best_epoch_msu.png)
 
-2. By comparing the metric of the same model (arch_id ~6000, #nums=169), models trained from SUSTech have better performance. 
+3. By comparing the metric of the same model (arch_id ~6000, #nums=169), models trained from SUSTech have better performance. 
 
     ![](./fig/dup_test_acc.png)
     ![](./fig/dup_test_fgsm.png)
