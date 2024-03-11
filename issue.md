@@ -51,3 +51,18 @@ Potential Reasons:
 ## Conclusion
 
 There are some differences in the training stage that cause the low-accuracy "vertical line" areas. We need to check whether there is any code difference between the MSU and Github to confirm the statement.
+
+# Missing *Base* Evaluation
+
+The data is from the GitHub repo.
+
+Red: models that complete *Base* evaluation
+
+Green: models trained by MSU by the git author
+
+- Overlapped Green: MSU models that complete *Base* evaluation.
+- Light Green: MSU models that have not completed *Base* evaluation.
+
+![](./fig/msu_missing_eval.png)
+
+Detailed arch_id: [msu_incomplete_base.txt](./msu_incomplete_base.txt)
